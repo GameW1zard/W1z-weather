@@ -2,16 +2,16 @@
 
 ## Description
 
-A simple day scheduler that will persist on webpage reload
+A quick weather checker to see todays and 5 days in advance forcast
 
 ## Deployed AT
 
-https://gamew1zard.github.io/Scheduler/
+https://gamew1zard.github.io/W1z-Weather/
 
 ## Usage
 
 It's a simple webpage Open in your browser of choice
-*note will not clear on day change
+Enter the US city you want to look up and it will output results to the right!
 
 ## Credits
 

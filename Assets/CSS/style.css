@@ -1,16 +1,28 @@
-.citys {
 
-    background-color: grey;
+
+#background {
+
+/* height: 100vh;
+width: 100vw; */
+
+background-color: black;
+
+}
+
+
+
+h1 {
+
+color: #A33059 !important;
 
 
 
 }
 
-.holder {
-
-height: 100vh;
-width: 100vw;
 
 
+nav {
+
+    background-color: #32DDD6;
 
 }

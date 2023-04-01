@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./Assets/CSS/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>Document</title>
+    <title>W1z-Weather</title>
 </head>
 <body>
+  <nav class="navbar navbar-light ">
+    <h1 class="mx-auto">W1zards Weather Planner</h1>
+  </nav>
+  <div id="background">
     <div class="container holder">
-
         <div class="row citys p-5 h-100">
             <div class="col-5">
                 <div class="form-group">
@@ -19,8 +22,7 @@
                 <button type="button" id="searchbutton" class="btn btn-info btn-block">Search</button>
             </div>  
             <ul id="history" class="list-group">
-                <li class="History-item list-group-item bg-primary border-dark">Dallas</li>
-                <li class="History-item list-group-item bg-primary border-dark">Austin</li>
+
 
 
 
@@ -31,8 +33,9 @@
         
         
         </div>
-            <div class="col-7">result area
-                <div class="card" style="width: 18rem;">
+            <div class="col-7">
+              <div class="row">
+                <div class="card border border-danger m-1" style="width: 18rem;">
                     <img id = "imgtoday" class="card-img-top"  alt="Card image cap">
                     <div id = "todaybody" class="card-body">
                       <p class="card-text">TODAY</p>
@@ -43,9 +46,9 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="card" style="width: 18rem;">
+                  <div class="card border border-danger m-1" style="width: 18rem;">
                     <img id = "day1image" class="card-img-top"  alt="Card image cap">
-                    <div class="card-body">
+                    <div id = "day1body" class="card-body">
                       <p class="card-text">DAY1</p>
                       <ul id = "day1">
                         <li>Temp</li>
@@ -54,15 +57,58 @@
                       </ul>
                     </div>
                   </div>
+                  <div class="card border border-danger m-1" style="width: 18rem;">
+                    <img id = "day2image" class="card-img-top"  alt="Card image cap">
+                    <div id = "day2body" class="card-body">
+                      <p class="card-text">DAY2</p>
+                      <ul id = "day2">
+                        <li>Temp</li>
+                        <li>Humidity</li>
+                        <li>wind speed</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card border border-danger m-1" style="width: 18rem;">
+                    <img id = "day3image" class="card-img-top"  alt="Card image cap">
+                    <div id = "day3body" class="card-body">
+                      <p class="card-text">DAY3</p>
+                      <ul id = "day3">
+                        <li>Temp</li>
+                        <li>Humidity</li>
+                        <li>wind speed</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card border border-danger m-1" style="width: 18rem;">
+                    <img id = "day4image" class="card-img-top"  alt="Card image cap">
+                    <div id = "day4body" class="card-body">
+                      <p class="card-text">DAY4</p>
+                      <ul id = "day4">
+                        <li>Temp</li>
+                        <li>Humidity</li>
+                        <li>wind speed</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card border border-danger m-1" style="width: 18rem;">
+                    <img id = "day5image" class="card-img-top"  alt="Card image cap">
+                    <div id = "day5body" class="card-body">
+                      <p class="card-text">DAY5</p>
+                      <ul id = "day5">
+                        <li>Temp</li>
+                        <li>Humidity</li>
+                        <li>wind speed</li>
+                      </ul>
+                    </div>
+                   
+                  </div>
 
 
 
 
 
 
-
-
-
+               </div>
             </div>
         </div>
 
@@ -74,6 +120,7 @@
 
 
     </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
