@@ -3,7 +3,7 @@ var searchbtn = $("#searchbutton")
 var li = $(".History-item")
 var ul = $("#history")
 var todayul = $("#todayul")
-const urlhold = "http://api.openweathermap.org/geo/1.0/direct?q="
+const urlhold = "https://api.openweathermap.org/geo/1.0/direct?q="
 const geohold = "https://api.openweathermap.org/data/2.5/forecast?lat="
 const dailyhold = "https://api.openweathermap.org/data/2.5/weather?lat="
 var todayurl = ""
